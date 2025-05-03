@@ -1,0 +1,71 @@
+ How to create a git repo in my computer and push to my remote account
+
+1. Make sure the GitHub repo already exists online. If not, go to GitHub, click "New", create an empty repo without initializing with README or .gitignore, then use the link it gives me. mine is git@github.com:Michelleyu11111/CISD41.git.
+
+2. Using Git in prompt
+
+Open your terminal Navigate to the folder you want to upload:
+
+cd C:\Users\ivyyu\DataScienceDISD41\Project
+
+
+Initialize a Git repository in that folder:
+
+git init
+
+Add the remote URL of your new GitHub repo:
+
+git remote add origin git@github.com:Michelleyu11111/CISD41.git.
+
+
+Add all files and commit them: 
+
+git add .
+git commit -m "Initial commit"
+Push to GitHub:
+
+git branch -M main
+git push -u origin main
+
+
+
+3 what AI help me to corrected
+
+Create the remote repo on GitHub
+
+Go to GitHub, click "New", and create an empty repository.
+
+Do not initialize it with a README, .gitignore, or license.
+
+Copy the remote repo URL. For example:
+
+git@github.com:Michelleyu11111/CISD41.git
+Using Git in the Command Prompt
+
+Open your terminal and navigate to the project folder:
+
+
+cd C:\Users\ivyyu\DataScienceDISD41\Project
+Initialize the Git repository:
+
+git init
+Add the remote URL of your GitHub repo:
+
+
+git remote add origin git@github.com:Michelleyu11111/CISD41.git
+Add and commit your files:
+
+git add .
+git commit -m "Initial commit"
+Push to GitHub:
+
+git branch -M main
+git push -u origin main
+
+
+ Notes
+If you’re using the git@github.com:... format (SSH), make sure your SSH keys are set up on your computer and added to your GitHub account.
+
+If you're not using SSH, you can replace the URL with the HTTPS version instead:
+
+https://github.com/Michelleyu11111/CISD41.git
