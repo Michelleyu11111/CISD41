@@ -62,6 +62,12 @@ Push to GitHub:
 git branch -M main
 git push -u origin main
 
+git branch -M main sets the branch name to main (only needed once when you set up the repo).
+
+git push -u origin main sets the upstream so future git push knows where to go.
+
+After that, just git push is smart enough to push to origin/main automatically.
+
 
  Notes
 If you’re using the git@github.com:... format (SSH), make sure your SSH keys are set up on your computer and added to your GitHub account.
