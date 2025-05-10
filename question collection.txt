@@ -4,3 +4,4 @@
 4.What are the correlations between key financial metrics in the dataset, and which variables show strong positive or negative relationships? Does EBITDA strongly correlate with Market Cap? Is there any relationship between Revenue Growth and Current Price?
 5.How is market capitalization distributed across different sectors and stock exchanges, and are there sectors that dominate specific exchanges?
 6. How are these companies geographically distributed worldwide?(A geographic map will be used to illustrate the global distribution, though it is still in progress.)
+7. how to use find low P/e stock roughly, since we don't have exact P/E？ and using the estimated P/E to choose Stocks.
